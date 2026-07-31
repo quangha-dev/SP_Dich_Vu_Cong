@@ -16,11 +16,10 @@ Review artifacts:
 - `prompt-analysis.md` - scope and risk analysis of the four runtime prompts;
 - `form_answers.md` - concise Vietnamese text ready to paste into the CP3 form.
 
-Run it from the repository root with the temporary evaluation environment:
+Run it from the repository root with the backend environment:
 
 ```powershell
-$venv = 'C:\Users\ADMIN\.codex\visualizations\2026\07\30\019fb255-bd61-74b0-8f6e-06009a16b57c\sp-dvc-eval-venv'
-& "$venv\Scripts\python.exe" eval\run_eval.py
+& .\codebase\backend\.venv\Scripts\python.exe eval\run_eval.py
 ```
 
 Generated artifacts:

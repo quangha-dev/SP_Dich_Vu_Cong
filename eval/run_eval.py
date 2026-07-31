@@ -21,7 +21,7 @@ import httpx
 from fakeredis.aioredis import FakeRedis
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-BE_ROOT = REPO_ROOT / "be"
+BE_ROOT = REPO_ROOT / "codebase" / "backend"
 if str(BE_ROOT) not in sys.path:
     sys.path.insert(0, str(BE_ROOT))
 

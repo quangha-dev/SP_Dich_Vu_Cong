@@ -12,7 +12,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 EVAL_DIR = Path(__file__).resolve().parent
-FRONTEND_DIR = REPO_ROOT / "frontend"
+FRONTEND_DIR = REPO_ROOT / "codebase" / "frontend"
 VITE_ENTRY = FRONTEND_DIR / "node_modules" / "vite" / "bin" / "vite.js"
 PID_FILE = EVAL_DIR / "local-processes.json"
 

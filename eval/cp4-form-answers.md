@@ -2,7 +2,7 @@
 
 ## Thông tin nhóm
 
-- Khóa VinAI: **Khóa 3**
+- Khóa VinAI: **Khóa 4**
 - Lớp labcode: **D305**
 - Nhóm trưởng: **Nguyễn Quang Hà — 2A202601424**
 
@@ -10,11 +10,11 @@
 
 **Chọn cả A — Đã khảo sát người thật và B — Đã phân tích dữ liệu.** A dùng 45 phản hồi khảo sát ngoài nhóm; B dùng 10 tin nhắn trong log nhóm tự dùng thử, có bộ lọc, quy tắc đếm, hash nguồn và ví dụ nguyên văn đã khử định danh.
 
-> Artifact A nằm trong `evidence/cp4-survey/`; artifact B nằm trong `evidence/cp4-log-mining/`. Cả hai đều có dữ liệu đã khử định danh, script tái lập, hash nguồn và cách đếm.
+> Artifact A nằm trong `validation/evidence/cp4-survey/`; artifact B nằm trong `validation/evidence/cp4-log-mining/`. Cả hai đều có dữ liệu đã khử định danh, script tái lập, hash nguồn và cách đếm.
 
 ## Con số bằng chứng mạnh nhất
 
-**Bằng chứng A: 26/45 người được khảo sát (57,8%) chọn “Phải đi lại nhiều lần do hồ sơ thiếu/sai sót” trong câu hỏi “Về việc Bất tiện di chuyển & Tương tác trực tiếp”; cách đếm là đếm các dòng có lựa chọn này rồi chia cho 45. Bằng chứng B: lọc `eval/cases.json` theo `source=group_self_test_deidentified_2026-07-30` và `real_observation=true`, có 8/10 tin nhắn (80%) dùng cách viết đời thường, viết tắt/lỗi gõ hoặc đưa nhiều dữ kiện trong một lượt. Quy tắc đếm, hash nguồn và 8 ví dụ nguyên văn đã khử định danh được lưu trong `evidence/cp4-log-mining/`.**
+**Bằng chứng A: 26/45 người được khảo sát (57,8%) chọn “Phải đi lại nhiều lần do hồ sơ thiếu/sai sót” trong câu hỏi “Về việc Bất tiện di chuyển & Tương tác trực tiếp”; cách đếm là đếm các dòng có lựa chọn này rồi chia cho 45. Bằng chứng B: lọc `eval/cases.json` theo `source=group_self_test_deidentified_2026-07-30` và `real_observation=true`, có 8/10 tin nhắn (80%) dùng cách viết đời thường, viết tắt/lỗi gõ hoặc đưa nhiều dữ kiện trong một lượt. Quy tắc đếm, hash nguồn và 8 ví dụ nguyên văn đã khử định danh được lưu trong `validation/evidence/cp4-log-mining/`.**
 
 ## Các ý tưởng đã cân nhắc và lý do chọn
 
